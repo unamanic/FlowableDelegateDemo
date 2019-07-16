@@ -1,4 +1,4 @@
-package com.fiveminuteflowable.demo;
+package com.fifteenminuteflowable.demo;
 
 
 
@@ -14,7 +14,7 @@ import org.springframework.core.Ordered;
 public class DemoConfiguration{
 
     @Configuration
-    @ComponentScan({"com.fiveminuteflowable.demo.delegates"})
+    @ComponentScan({"com.fifteenminuteflowable.demo.delegates"})
     public static class ComponentScanConfiguration {
 
     }
